@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'apps.user_login',
     'apps.file_upload',
     'apps.amadon',
     'apps.session_words',
