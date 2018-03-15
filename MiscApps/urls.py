@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^session_words/', include("apps.session_words.urls")),
     url(r'^random_word/', include("apps.random_word.urls")),
     url(r'^amadon/', include("apps.amadon.urls")),
-    url(r'^file_upload/', include("apps.file_upload.urls"))
+    url(r'^file_upload/', include("apps.file_upload.urls")),
+    url(r'^rest_users/', include("apps.rest_users.urls"))
 ]
